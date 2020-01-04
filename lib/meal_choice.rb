@@ -4,4 +4,5 @@ def meal_choice (veg1, veg2, ptotein)
  end 
    puts "A plate of #{protein} with #{veg1} and #{veg2}"
  end
+ end
 
