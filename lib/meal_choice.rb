@@ -1,9 +1,9 @@
-# Your code here
-veg1= "brocolli", veg2 = "macaroni", protein  = "meat"
-def meal_choice (veg1, veg2, ptotein)
-  if meal_choice (veg1, veg2, ptotein)
-puts "A plate of #{protein} with #{veg1} and #{veg2}"
-else meal_choice (veg1, veg2, ptotein ="tofu")
-  puts "A plate of #{protein} with #{veg1} and #{veg2}"
+def meal_choice(veg1, veg2, protein="meat")
+  puts "What a nutritious meal!"
+  meal = "A plate of #{protein} with #{veg1} and #{veg2}."
+  puts meal
+  return meal
 end
-  puts "What a nutricious meal!"
+
+
+
